@@ -14,9 +14,6 @@ public class MiniTile : MonoBehaviour
 	void Awake ()
 	{
 	    MiniTileImage = gameObject.GetComponent<Image>();
-	    
-	    
-
 	}
 
     void Update()
@@ -26,9 +23,4 @@ public class MiniTile : MonoBehaviour
             colorForMiniTile = colorTemp;
         }
     }
-
-    //void ApplyStyleFromMiniTileHolder(int index)
-    //{
-    //    MiniTileImage.color = MiniTileStyleHolder.Instance.MiniTileStyles.MiniTileColor;
-    //}
 }
